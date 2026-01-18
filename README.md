@@ -1,6 +1,6 @@
 # AI PDF Note Taker
 
-This is a Next.js project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). The application lets users upload PDFs AND take notes fro the pdf using AI .
+This is a Next.js project. The application lets users upload PDFs and  take notes from the pdf using AI .
 
 Live - https://ai-pdf-note-taker-lyart.vercel.app/
 
@@ -66,10 +66,5 @@ Deploy your Next.js application on [Vercel](https://vercel.com/new). For Convex 
 npx convex push
 ```
 
-## Hydration Warnings & Troubleshooting
 
-If you encounter hydration errors (for example, due to mismatched class names), consider:
-- Verifying that no client-only code (e.g. `if(typeof window !== 'undefined')`) is inadvertently executed during SSR.
-- Using the `suppressHydrationWarning` prop on elements with dynamic class names if the issue is non-critical.
-- Checking for browser extension interference.
 
