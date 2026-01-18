@@ -50,7 +50,7 @@ function DeleteConfirmationDialog({ isOpen, onClose, onConfirm, fileName, isDele
           </button>
           <button
             onClick={onClose}
-            className="w-full py-2 rounded-xl bg-white text-gray-600 hover:bg-gray-50 transition-colors "
+            className="w-full py-2 rounded-xl bg-white text-gray-600 hover:bg-gray-50 transition-colors duration-200 font-medium text-sm border-2 border-gray-200"
           >
             Cancel
           </button>
