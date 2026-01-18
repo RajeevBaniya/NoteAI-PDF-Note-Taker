@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run vercel-build",
+  "buildCommand": "npx convex deploy && npm run build",
   "framework": "nextjs",
   "installCommand": "npm install"
 }
