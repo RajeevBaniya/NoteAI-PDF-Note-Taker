@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npx convex codegen && next build",
+    "prebuild": "npx convex codegen || echo 'Codegen skipped, using existing files'",
+    "build": "next build",
     "vercel-build": "npx convex deploy && npm run build",
     "start": "next start",
     "lint": "next lint"
